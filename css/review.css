@@ -1,0 +1,13 @@
+.review .card {
+    border: none;
+    background-color: transparent;
+    padding-top: 25px;
+}
+
+.review img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 12px -18px rgb(253, 155, 80);
+    margin: 0 auto;
+}

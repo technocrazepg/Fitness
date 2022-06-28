@@ -1,0 +1,7 @@
+.aboutUs p {
+    color: gray;
+}
+
+.aboutUs img {
+    box-shadow: 12px 18px rgb(253, 155, 80);
+}

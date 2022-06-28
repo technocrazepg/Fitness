@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+}
+
+body {
+    font-family: "Franklin Gothic Medium";
+    text-align: center;
+}
+
+.header {
+    background: url('../images/bg_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    border-top: 4px solid rgb(253, 155, 80);
+}
+
+.nav-link:active {
+    border-top: 4px solid rgb(253, 155, 80);
+}
+
+.home {
+    text-align: left;
+    color: white;
+    margin-top: 20%;
+}
+
+.home span {
+    font-family: Copperplate, Papyrus, fantasy;
+    display: block;
+    font-size: 2rem;
+}
+
+.home .btn1 {
+    background-color: rgb(253, 155, 80);
+    color: white;
+    box-shadow: 6px 8px white;
+    border: 1px solid rgb(253, 155, 80);
+    margin-bottom: 10px;
+}
+
+.home .btn2 {
+    background-color: transparent;
+    color: rgb(253, 155, 80);
+    ;
+    font-weight: 400;
+    box-shadow: 6px 8px rgb(253, 155, 80);
+    ;
+    border: 2px solid rgb(253, 155, 80);
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border: 13px solid rgb(253, 155, 80);
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    right: 70px;
+}
+
+/* tab */
+@media screen and (min-device-width: 650px) and (max-device-width: 1100px), screen and (min-width: 650px) and (max-width: 1100px) {
+    .home {
+        margin-top: 15%;
+    }
+}
+
+/* mobile */
+@media screen and (max-device-width: 650px), screen and (max-width: 650px) {
+    .home {
+        margin: 10%;
+    }
+}

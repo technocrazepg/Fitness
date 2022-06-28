@@ -1,0 +1,64 @@
+.contactUs {
+    background: url('../images/blackbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.contactUs .desc {
+    text-align: left;
+}
+
+.contactUs form input {
+    border: 2px solid gray;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.contactUs form textarea {
+    border: 2px solid gray;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.contactUs form input:focus {
+    box-shadow: 0 0 0 transparent;
+}
+
+.contactUs button {
+    float: right;
+    background-color: transparent;
+    color: rgb(253, 155, 80);
+    font-weight: 400;
+    box-shadow: 6px 8px rgb(253, 155, 80);
+    border: 1px solid rgb(253, 155, 80);
+    border-radius: 0;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.contactUs button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(253, 155, 80);
+    color: rgb(253, 155, 80);
+}
+
+.contactUs .content {
+    border-bottom: 2px solid gray;
+}
+
+/* tab */
+@media screen and (min-device-width: 650px) and (max-device-width: 1100px), screen and (min-width: 650px) and (max-width: 1100px) {
+    .contactUs .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* mobile */
+@media screen and (max-device-width: 650px), screen and (max-width: 650px) {
+    .contactUs .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
